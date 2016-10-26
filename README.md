@@ -12,6 +12,9 @@
 **사용기술**<br>
 html5, css3, javascript, jQuery
 
+**참여율**
+100%
+
 **URL**<br>
 http://tiramisu-story.com/html/main.html
  
