@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+html{
+    color:#363636;
+}
+header{
+    background-color:#151d21;
+}
+#company{
+    background-color:#dddddd;
+}
+#menu{
+    background-color:#fff;
+}
+#info{
+    background-color:#f6f5f0;
+}
+#brand{
+    background-color:#ccc7c3;
+}
+#company article{
+    background:url(../images/cup.png) no-repeat 4rem center;
+    background-size:  auto 23rem;
+}
+#company p{
+    color:#333;
+}
+
+.lnb a{
+    color:#FFF;
+}
+.lnb a:hover{
+    color:#000;
+    background-color:#fff;
+}
+.slide a{
+    background:url(../images/dott_off.png) no-repeat center;
+    background-size:contain;
+}
+.slide li.on a{
+    background:url(../images/dott_on.png) no-repeat center;
+    background-size:contain;
+}
+.prev{
+    background:url(../images/btn-prev.png) no-repeat center;
+    background-size:contain;
+}
+.next{
+    background:url(../images/btn-next.png) no-repeat center;
+    background-size:contain;
+}
+.btn-top a{
+    background:url(../images/btn-top.png) no-repeat center;
+    background-size:contain;
+}
+
+figcaption{
+    color:#333;
+}
+figcaption span{
+    color:#666;
+}
+
+.tab-list > ul >li{
+    background-color:#e3e3e3;
+}
+.tab-list > ul >li.on{
+    background-color:#62372f;
+}
+.tab-list > ul > li > a{
+    color:#796754;
+}
+.tab-list > ul> li.on > a{
+    color:#FFF;
+}
+
+.store-list li{
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: 1.5rem center;
+}
+.store-list li p{
+    color:#363636;
+}
+.store-list li p+p{
+    color:#666666;
+}
+
+.btn-box li{
+    background-color:#FFF;
+}
+.btn-box li a{
+    color:#333;
+}
+.btn-box li:active a{
+    color:#FFF;
+    border-color:#000;
+    background-color:#000;
+}
+.page-num.on a{
+    color:#FFF;
+    border-color:#000;
+    background-color:#000;
+}
+
+th{
+    background-color:#f0e4d7;
+}
+.notice p+p{
+    color:#666666;
+}
+.comp p{
+    color:#666666;
+}
+.comp .tit{
+    color:#000;
+}
+.highlight{
+    color:#cc3333;
+}
+.txt-box p{
+    color:#666666;
+}
+.txt-box .tit-type2{
+    color:#000;
+}
+.comp .last-li{
+    background-image:url(../images/logo3.png);
+    background-repeat:no-repeat;
+    background-position: 2.2rem  center;
+    background-size:auto 80%;
+}
+.num{
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+address{
+    color:#666666 !important;
+    text-decoration: none !important;
+}
+
+@media all and (max-width: 760px ){
+    header{
+        background-color:#FFF;
+    }
+    #visual{
+        background-color:#151d21;
+    }
+    .lnb a{
+        color:#151d21;
+    }
+    .lnb a:hover{
+        color:#fff;
+        background-color:#151d21;
+    }
+    #company article{
+        background-position:98% 70%;
+        background-size:auto 22rem;
+    }
+    .store-list li{
+        background-repeat:no-repeat;
+        background-size: contain;
+        background-position: 5% center;
+    }
+}

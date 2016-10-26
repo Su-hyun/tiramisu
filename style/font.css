@@ -1,0 +1,255 @@
+@charset "utf-8";
+
+@font-face{
+    font-family:"DOHYEON";
+    src:url(../fonts/BMDOHYEON.ttf),
+    url(../fonts/BMDOHYEON.eot),
+    url(../fonts/BMDOHYEON.woff);
+}
+@font-face{
+    font-family:"HANNA11";
+    src:url(../fonts/BMHANNA.ttf),
+    url(../fonts/BMHANNA.eot),
+    url(../fonts/BMHANNA.woff);
+}
+@font-face{
+    font-family:"JUA";
+    src:url(../fonts/BMJUA.ttf),
+    url(../fonts/BMJUA.eot),
+    url(../fonts/BMJUA.woff);
+}
+@font-face{
+    font-family:"BOMBARD";
+    src:url(../fonts/BOMBARD.ttf),
+    url(../fonts/BOMBARD.eot),
+    url(../fonts/BOMBARD.woff);
+}
+@font-face{
+    font-family:"GodoM";
+    src:url(../fonts/GodoM.ttf),
+    url(../fonts/GodoM.eot),
+    url(../fonts/GodoM.woff);
+}
+@font-face{
+    font-family:"NanumGothic";
+    src:url(../fonts/NanumGothic.ttf),
+    url(../fonts/NanumGothic.eot),
+    url(../fonts/NanumGothic.woff);
+}
+@font-face{
+    font-family:"NanumBarunGothic";
+    src:url(../fonts/NanumBarunGothic.ttf),
+    url(../fonts/NanumBarunGothic.eot),
+    url(../fonts/NanumBarunGothic.woff);
+}
+@font-face{
+    font-family:"NanumBarunGothicLight";
+    src:url(../fonts/nanumbarungothiclight.ttf),
+    url(../fonts/nanumbarungothiclight.eot),
+    url(../fonts/nanumbarungothiclight.woff);
+}
+
+html{
+    font-size:20px;
+}
+body,h1,p,input,button{
+    font-family:"NanumBarunGothic",sans-serif;
+}
+h2{
+    font-family:"HANNA11";
+    font-size:4rem;
+}
+h3{
+    font-family:"BOMBARD";
+    font-size:4rem;
+    letter-spacing: 3px;
+}
+h3 > span{
+    font-family:"NanumBarunGothic";
+    font-size:1.25rem;
+    font-weight:bold;
+    line-height:1;
+    letter-spacing: 0;
+}
+
+.lnb a{
+    font-size:1.1rem;
+    font-weight:bold;
+}
+
+#company p{
+    font-family:"NanumBarunGothicLight";
+    font-size:1.25rem;
+    word-break: normal;
+}
+figcaption{
+    font-size:1.15rem;
+}
+
+.tab-list > ul > li{
+    font-size:1.4rem;
+}
+.tab-list > ul > li > a{
+    line-height:2.75rem;
+}
+
+.store-list li p{
+    font-size:1.25rem;
+}
+.store-list li p+p{
+    font-size:1rem;
+}
+
+.page-num{
+    font-size:0.75rem;
+}
+.page-start, .page-prev, .page-next, .page-end{
+    font-size:0.5rem;
+    letter-spacing: -2px;
+}
+
+table{
+    font-size:1.1rem;
+}
+th{
+    line-height:2.75rem;
+}
+.tab-list > ul > li:nth-child(2) td{
+    line-height:2.75rem;
+}
+.notice p{
+    font-size:1.1rem;
+}
+
+.comp p{
+    font-size:1.1rem;
+    letter-spacing:-1px;
+    word-break:keep-all;
+}
+.comp .tit{
+    font-size:1.75rem;
+    font-weight:bold;
+}
+
+.txt-box p{
+    font-size:1rem;
+    letter-spacing: -1px;
+}
+.txt-box .tit-type2{
+    font-size:1.75rem;
+}
+
+address{
+    font-size:0.7rem;
+    line-height:1.5;
+    letter-spacing:1px;
+}
+
+@media all and (max-width: 1200px){
+    html{
+        font-size:1.7vw;
+    }
+
+}
+
+@media all and (max-width: 760px){
+    html{
+        font-size:3.13vw;
+    }
+    h2{
+        font-family:"HANNA11";
+        font-size:3.4rem;
+    }
+    h3{
+        font-family:"BOMBARD";
+        font-size:4rem;
+        letter-spacing: 3px;
+    }
+    h3 > span{
+        font-size:1.25rem;
+        font-weight:bold;
+        line-height:1;
+    }
+
+    .lnb a{
+        font-size:1.1rem;
+        font-weight:bold;
+    }
+
+    #company p{
+        font-size:1rem;
+        /*letter-spacing: -0.5px;*/
+        word-break:keep-all;
+    }
+    figcaption{
+        font-size:1.15rem;
+    }
+
+    .tab-list > ul > li{
+        font-size:1.4rem;
+    }
+    .tab-list > ul > li > a{
+        line-height:2.75rem;
+    }
+
+    .store-list li p{
+        font-size:1.25rem;
+    }
+    .store-list li p+p{
+        font-size:1rem;
+    }
+
+    .page-num{
+        font-size:0.75rem;
+    }
+    .page-start, .page-prev, .page-next, .page-end{
+        font-size:0.3rem;
+        letter-spacing: -2px;
+    }
+
+    table{
+        font-size:1rem;
+    }
+    th, td{
+        line-height:2.75rem;
+    }
+    .tab-list > ul > li:nth-child(2) td{
+        line-height:2.5rem;
+        word-break: keep-all;
+    }
+    .cost td{
+        line-height:2.4rem;
+        word-break: keep-all;
+    }
+    .notice p{
+        font-size:1rem;
+    }
+
+    .comp p{
+        font-size:1rem;
+        letter-spacing:-1px;
+        word-break:keep-all;
+    }
+    .comp .tit{
+        font-size:1.55rem;
+        font-weight:bold;
+    }
+
+    .txt-box p{
+        font-size:1rem;
+        letter-spacing: -1px;
+    }
+    .txt-box .tit-type2{
+        font-size:1.75rem;
+    }
+
+    address{
+        font-size:0.7rem;
+        line-height:1.5;
+        letter-spacing:0;
+    }
+    address p{
+        -ms-word-break: keep-all;
+        word-break: keep-all;
+    }
+}
