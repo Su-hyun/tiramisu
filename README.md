@@ -1,7 +1,5 @@
-# tiramisu
-**티라미수 리퍼블릭**
-
-Browser Support<br>
+# 티라미수 리퍼블릭 
+**Browser Support**
 - IE 9+-<br>
 - Firefox (latest)<br>
 - Chrome (latest)<br>
