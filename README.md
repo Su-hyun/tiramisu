@@ -10,7 +10,7 @@
 - Mobile
 
 **사용기술**
-html5, css3, javascript, jQuery
+- html5, css3, javascript, jQuery
 
 **URL**
 http://tiramisu-story.com/html/main.html
