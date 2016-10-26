@@ -2,7 +2,6 @@
 **티라미수 리퍼블릭**
 
 Browser Support<br>
-----------------<br>
 - IE 9+-<br>
 - Firefox (latest)<br>
 - Chrome (latest)<br>
